@@ -1,2 +1,1 @@
-# MokshaPassion
-Passion theme for Moksha desktop
+# Moksha Passion theme
