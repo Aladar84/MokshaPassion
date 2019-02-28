@@ -9741,12 +9741,12 @@ CONNMAN_ICON(ethernet)
                align: 1.0 0.5;
                rel1.relative: 0.5 0.0;
                rel2.relative: 1.0 0.3;
-               color: 0 0 0 255;
-               color2: 255 255 255 128;
+               color: 210 210 210 255;
+               color2: 0 0 0 255;
                color_class: "module_label";
                text {
-                  font: "Sans";
-                  size: 8;
+                  font: "Sans:style=Bold";
+                  size: 10;
                   min: 1 1;
                   align: 1.0 0.5;
                   text_class: "module_small";
@@ -9763,12 +9763,12 @@ CONNMAN_ICON(ethernet)
                align: 1.0 0.5;
                rel1.relative: 0.5 0.3;
                rel2.relative: 1.0 0.6;
-               color: 0 0 0 255;
-               color2: 255 255 255 128;
+               color: 210 210 210 255;
+               color2: 0 0 0 255;
                color_class: "module_label";
                text {
-                  font: "Sans";
-                  size: 8;
+                  font: "Sans:style=Bold";
+                  size: 10;
                   min: 1 1;
                   align: 1.0 0.5;
                   text_class: "module_small";
@@ -10054,14 +10054,14 @@ group {
 	       relative: 0.5  0.77;
 		   offset:  0 0;
 	    }
-		color: 221 221 221 255;
+		color: 210 210 210 255;
 	    color_class: "module_label";
 	    text {
 	       text:     "99^C";
-	       font:     "Edje-Vera-Bold";
+	       font:     "Sans:style=Bold";
 	       size:     10;
 	       min:      1 1;
-	       align:    0.0 0.0;
+	       align:    0.0 0.2;
                text_class: "module_small";	       
 	    }
 	 }
@@ -10747,22 +10747,22 @@ group {
             description {
                state: "default" 0.0;
                rel1 {
-                  relative: 0.6 0.7;
+                  relative: 0.5 0.7;
                   offset: 0 0;
                }
                rel2 {
-                  relative: 0.6 0.7;
+                  relative: 0.5 0.7;
                   offset: 0 0;
                }
-               color: 255 255 255 255;
+               color: 210 210 210 255;
                color2: 0 0 0 128;
                color3: 0 0 0 32;
                color_class: "module_label";
                text {
                   text: "??? Ghz";
                   font: "Sans:style=Bold";
-                  size: 6;
-                  align: 0.5 0.5;
+                  size: 9;
+                  align: 0.0 0.3;
                   min: 1 1;
                   text_class: "module_small";
                }
@@ -11155,22 +11155,22 @@ group {
             description {
                state: "default" 0.0;
                rel1 {
-                  relative: 0.6 0.7;
+                  relative: 0.5 0.7;
                   offset: 0 0;
                }
                rel2 {
-                  relative: 0.6 0.7;
+                  relative: 0.5 0.7;
                   offset: 0 0;
                }
-               color: 255 255 255 255;
+               color: 210 210 210 255;
                color2: 0 0 0 128;
                color3: 0 0 0 32;
                color_class: "module_label";
                text {
                   text: "??? Ghz";
                   font: "Sans:style=Bold";
-                  size: 6;
-                  align: 0.5 0.5;
+                  size: 9;
+                  align: 0.0 0.3;
                   min: 1 1;
                   text_class: "module_small";
                }
@@ -13338,7 +13338,7 @@ group {
                color3: 0 0 0 64;
                text {
                   font: "Sans:style=Bold";
-                  size: 16;
+                  size: 20;
                   align: 0.0 0.5;
                   min: 1 1;
                   text_class: "exebuf_command";
@@ -32354,7 +32354,7 @@ target: "region";
             description {
                state: "default" 0.0;
                fixed: 0 1;
-               align: 0.0 0.5;
+               align: 0.0 1.0;
                rel1 {
                   offset: 10  8;
                   to: "input_bg";
@@ -32362,14 +32362,14 @@ target: "region";
                rel2 {
                   to: "input_bg";
                   relative: 0.0 1.0;
-                  offset: 10  -4;
+                  offset: 10  0;
 
                }
-               color: 60 60 60 255;
-               color3: 255 255 255 68;
+               color: 255 255 255 255;
+               color3: 60 60 60 255;
                text {
                   font: "Sans:style=Bold";
-                  size: 11;
+                  size: 12;
                   align: 0.0 0.5;
                   min: 1 1;
                   text_class: "fileman_typebuf";
@@ -32382,13 +32382,13 @@ target: "region";
             mouse_events: 0;
             description {
                state: "default" 0.0;
-               min: 10 10;
-               max: 10 10;
+               min: 15 15;
+               max: 15 15;
                align: 0.0 0.5;
                fixed: 1 1;
                rel1 {
                   relative: 1.0  0.0;
-                  offset: -2    -2;
+                  offset: 0    -2;
                   to: "e.text.label";
                }
                rel2 {
@@ -32400,7 +32400,7 @@ target: "region";
                normal: "icon_right_arrow.png";
                }
 
-               color: 20 20 20 250;
+               color: 230 230 230 250;
             }
             description {
                state: "faded" 0.0;
