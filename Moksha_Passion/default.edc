@@ -32146,21 +32146,8 @@ target: "region";
          part {
             name: "base";
             type: RECT;
-            /* description {
-             *    state: "default" 0.0;
-             *    rel1 {
-             *       relative: 0.0 1.0;
-             *       to_x: "list_frame";
-             *       to_y: "input_base";
-             *    }
-             *    rel2 {
-             *       to_x: "list_frame";
-             *       to_y: "input_base";
-             *    }
-             * } */
-            description {
+              description {
                state: "default" 0.0;
-               /*inherit: "default" 0.0;*/
                rel1 {
                   relative: 0.0 1.0;
                   to_x: "list_frame";
@@ -32175,21 +32162,8 @@ target: "region";
          part {
             name: "input_base";
             type: RECT;
-            /* description {
-             *    state: "default" 0.0;
-             *    rel1 {
-             *       to_x: "base";
-             *    }
-             * 
-             *    rel2 {
-             *       relative: 1.0 0.0;
-             *       to_x: "base";
-             *       offset: -1 1;
-             *    }
-             * } */
-            description {
+			description {
                state: "default" 0.0;
-               /* inherit: "default" 0.0; */
                rel1 {
                   to_x: "base";
                }
@@ -32207,9 +32181,7 @@ target: "region";
                state: "default" 0.0;
                rel1.to_x: "base";
                rel1.to_y: "input_base";
-
                rel2.to: "base";
-               /* rel2.offset: -1 -3; */
                color: 245 245 245 255;
             }
          }
@@ -32532,7 +32504,6 @@ target: "region";
                   middle: 0;
                }
                fill.smooth : 0;
-               /* color: 200 200 200 255; */
             }
          }
          part {
@@ -33064,10 +33035,10 @@ target: "region";
                rel1.offset: 2 3;
                rel2.offset: -6 -7;
                /* visible: 0; */
-               color: 24 24 24 255;
+               color: 200 200 200 255;
                text {
                   font: "Sans:style=Bold";
-                  size: 9;
+                  size: 10;
                   min: 0 1;
                   align: 0.0 1.0;
                   text_class: "fileman_typebuf";
@@ -33095,11 +33066,11 @@ target: "region";
                   /* to_x: "e.swallow.icons"; */
                }
                rel2.offset: -10 -1;
-               color: 20 20 20 255;
+               color: 200 200 200 255;
                color3: 0 0 0 0;
                text {
                   font: "Sans";
-                  size: 9;
+                  size: 10;
                   min: 0 1;
                   align: 1.0 0.0;
                   text_class: "fileman_icon";
@@ -33205,7 +33176,7 @@ target: "region";
                fixed: 0 1;
                rel1.to: "e.text.label";
                rel2.to: "e.text.label";
-               color: 0 0 0 255;
+               color: 200 200 200 255;
                text {
                   font: "Sans:style";
                   text_source: "e.text.label";
@@ -33259,7 +33230,7 @@ target: "region";
                color: 245 245 245 255;
                text {
                   font: "Sans:style=Bold";
-                  size: 9;
+                  size: 10;
                   min: 0 1;
                   align: 0.5 0.5;
                   text_class: "fileman_icon";
@@ -33617,10 +33588,10 @@ target: "region";
                   relative: 0.0 1.0;
                }
                rel2.offset: -2 -13;
-               color3: 20 20 20 60;
+               color3: 20 20 20 255;
                color: 255 255 255 255;
                text {
-                  font: "Sans";
+                  font: "Sans:style=Bold";
                   size: 10;
                   min: 0 1;
                   align: 0.5 0.0;
@@ -33635,8 +33606,8 @@ target: "region";
                   relative: 0.0 1.0;
                }
                rel2.offset: -2 -13;
-               color: 250 250 250 255;
-               color3: 20 20 20 40;
+               color: 200 10 10 255;
+               color3: 20 20 20 255;
             }
          }
          
