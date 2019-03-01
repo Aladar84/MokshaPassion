@@ -10762,6 +10762,7 @@ group {
                   text: "??? Ghz";
                   font: "Sans:style=Bold";
                   size: 9;
+                  ellipsis: -1;
                   align: 0.0 0.3;
                   min: 1 1;
                   text_class: "module_small";
@@ -11170,6 +11171,7 @@ group {
                   text: "??? Ghz";
                   font: "Sans:style=Bold";
                   size: 9;
+                  ellipsis: -1;
                   align: 0.0 0.3;
                   min: 1 1;
                   text_class: "module_small";
