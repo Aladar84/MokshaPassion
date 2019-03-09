@@ -10047,7 +10047,7 @@ group {
    	    aspect: 1.0 1.0;
 	    aspect_preference: BOTH;
 		rel1 {
-	       relative: 0.5  0.9;
+	       relative: 0.5  0.77;
 		   offset:  0 0;
 	    }
 	    rel2 {
